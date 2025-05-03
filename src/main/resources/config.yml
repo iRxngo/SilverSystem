@@ -1,0 +1,16 @@
+# Silver System Configuration
+# Author: iRxngo
+
+# Silver values per currency
+silver-per-iron: 1
+silver-per-gold: 5
+silver-per-diamond: 10
+silver-per-emerald: 20
+
+# Database settings
+database:
+  type: sqlite
+  file: silver.db
+
+# Update interval for top players cache (in minutes)
+top-players-cache: 5
